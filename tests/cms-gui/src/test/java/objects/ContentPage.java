@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
 import java.util.Map;
 
 public class ContentPage extends BasePage {
@@ -50,7 +51,22 @@ public class ContentPage extends BasePage {
     WebElement doneButton;
 
     @FindBy(css = "div.hippo-preview-document")
-    WebElement publicationDate;
+    WebElement documentPreview;
+
+    @FindBy(xpath = "//span[text()='Publication']")
+    WebElement publicationButton;
+
+    @FindBy(css = "span[title='Publish (request)']")
+    WebElement publishRequestOption;
+
+    @FindBy(css = "ul.hippo-toolbar-status-labels")
+    WebElement documentStatus;
+
+    @FindBy(css = "tbody.datatable-tbody>tr")
+    List<WebElement> documentsList;
+
+    @FindBy(css = "span[title='Edit']")
+    WebElement editButton;
 
     String folderNameLocator = "a[title='%s']";
     String selectAuthorLocator = "span[title='%s']";
@@ -72,6 +88,8 @@ public class ContentPage extends BasePage {
 
     public void selectFolder(String folderName) {
         By locator = By.cssSelector(String.format(folderNameLocator, folderName));
+        waitUntilElementVisible(locator);
+        if (!driver.findElement(locator).getAttribute("class").contains("expanded"))
         elementClick(locator);
     }
 
@@ -104,6 +122,13 @@ public class ContentPage extends BasePage {
         elementClick(doneButton);
     }
 
+    public void editBlog(Map<String, String> data) {
+        setText(titleInput, data.get("title"));
+        setText(introductionTextArea, data.get("introduction"));
+        setText(contentTextBox, data.get("content"));
+        elementClick(doneButton);
+    }
+
     public void selectAuthor(String authorName) {
         selectFolderAuthor("My Project");
         selectFolderAuthor("blog");
@@ -116,8 +141,37 @@ public class ContentPage extends BasePage {
     public void verifyDocumentCreated() {
         By locator = By.cssSelector(String.format(documentListLocator, documentName));
         elementClick(locator);
-        waitUntilElementVisible(publicationDate);
-        Assert.assertTrue(publicationDate.isDisplayed());
+        waitUntilElementVisible(documentPreview);
+        Assert.assertTrue(documentPreview.isDisplayed());
+    }
+
+    public void selectDocumentFromList() {
+        selectFolder("test");
+        driver.switchTo().defaultContent();
+        waitForLoading();
+        switchToFrame(contentIframe);
+        waitUntilAllElementVisible(documentsList);
+        elementClick(documentsList.get(documentsList.size() - 1));
+    }
+
+    public void requestForPublication() {
+        elementClick(publicationButton);
+        elementClick(publishRequestOption);
+    }
+
+    public void verifyPublishRequestCreated() {
+        waitUntilElementVisible(documentStatus);
+        waitInSeconds(1);
+        Assert.assertTrue(documentStatus.getText().contains("Publication request"));
+    }
+
+    public void clickEditDocument() {
+        elementClick(editButton);
+    }
+
+    public void verifyDocumentEdited() {
+        elementClick(documentPreview);
+        Assert.assertTrue(documentPreview.getText().contains("edited"));
     }
 
 }

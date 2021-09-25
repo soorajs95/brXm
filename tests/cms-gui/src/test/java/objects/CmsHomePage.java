@@ -14,7 +14,9 @@ public class CmsHomePage extends BasePage {
     }
 
     public void navigateToFromSidePane() {
-       elementClick(contentMenu);
+        elementClick(contentMenu);
+        waitForLoading();
+        elementClick(contentMenu);
     }
 
 }

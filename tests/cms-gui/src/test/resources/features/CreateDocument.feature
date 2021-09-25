@@ -1,3 +1,4 @@
+@CreateDocument
 Feature: Create Document
 
   Scenario: Users with author access should be to create a document

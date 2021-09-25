@@ -1,6 +1,8 @@
 package objects;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -8,9 +10,12 @@ import steps.Hooks;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.Properties;
 
 public class BasePage {
+
+    By progressBarLocator = By.xpath("//mat-progress-bar");
 
     WebDriver driver = Hooks.getBrowser();
 
@@ -30,8 +35,20 @@ public class BasePage {
         webDriverWait().until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
+    public void waitUntilAllElementVisible(List<WebElement> elements) {
+        webDriverWait().until(ExpectedConditions.visibilityOfAllElements(elements));
+    }
+
+    public void waitInSeconds(int seconds) {
+        try {
+            new WebDriverWait(driver, seconds).until(ExpectedConditions.elementToBeClickable(By.id("justForWait")));
+        } catch (TimeoutException | NoSuchElementException ignored) {
+        }
+    }
+
     public void setText(WebElement element, String text) {
         waitUntilElementVisible(element);
+        element.clear();
         element.sendKeys(text);
     }
 
@@ -49,10 +66,6 @@ public class BasePage {
         driver.findElement(locator).click();
     }
 
-    public void clickJS(WebElement element) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
-    }
-
     public void selectByVisibleText(WebElement element, String value) {
         waitUntilElementVisible(element);
         new Select(element).selectByVisibleText(value);
@@ -61,6 +74,10 @@ public class BasePage {
     public void switchToFrame(WebElement element) {
         waitUntilElementVisible(element);
         driver.switchTo().frame(element);
+    }
+
+    public void waitForLoading() {
+        webDriverWait().until(ExpectedConditions.invisibilityOfElementLocated(progressBarLocator));
     }
 
     public static String readConfig(String config) {
