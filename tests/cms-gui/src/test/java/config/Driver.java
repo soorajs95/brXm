@@ -13,7 +13,7 @@ import org.openqa.selenium.safari.SafariOptions;
 
 public class Driver extends Utils {
 
-    static String browser = "chrome";
+    static String browser = setValue("browser");
 
     public static WebDriver getBrowserDriver() {
         switch (browser.toLowerCase()) {
@@ -38,7 +38,7 @@ public class Driver extends Utils {
     public static ChromeOptions chromeOptions() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.setHeadless(true);
+        chromeOptions.setHeadless(Boolean.parseBoolean(setValue("headless")));
         chromeOptions.addArguments("--no-sandbox");
         chromeOptions.addArguments("--disable-dev-shm-usage");
         return chromeOptions;

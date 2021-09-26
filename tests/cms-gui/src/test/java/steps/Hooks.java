@@ -14,7 +14,7 @@ public class Hooks {
     @Before
     public void setUp() {
         driver = Driver.getBrowserDriver();
-//        Utils.setBrowserSize();
+        Utils.setBrowserSize();
     }
 
     @After
