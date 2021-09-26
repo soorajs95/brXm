@@ -28,7 +28,7 @@ jobs:
 
     - name: UI tests
       run: |
-        make run-project && make run-ui-tests
+        make run-project & make run-ui-tests
 
     - name: Generate UI test report
       run: make generate-ui-test-report
