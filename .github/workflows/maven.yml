@@ -28,7 +28,7 @@ jobs:
 
     - name: UI tests
       run: |
-        npi i -g wait-on
+        npm i -g wait-on
         make run-project & wait-on http://localhost:8080/
         make run-ui-tests
 
