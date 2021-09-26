@@ -30,6 +30,7 @@ jobs:
       run: make run-project
       
     - name: Run UI tests
+      uses: ./
       with:
         wait-on: 'http://localhost:8080'
       run: make run-ui-tests
