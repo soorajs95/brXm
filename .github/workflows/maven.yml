@@ -27,7 +27,7 @@ jobs:
       run: make build-project
 
     - name: UI tests
-      run: make run-project && sleep 85 && make run-ui-tests
+      run: make run-project & sleep 85 && make run-ui-tests
 
     - name: Generate UI test report
       run: make generate-ui-test-report
