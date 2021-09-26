@@ -28,9 +28,7 @@ jobs:
 
     - name: UI tests
       run: |
-        npm i -g wait-on
-        make run-project & wait-on http://localhost:8080/cms
-        make run-ui-tests
+        make run-project && make run-ui-tests
 
     - name: Generate UI test report
       run: make generate-ui-test-report
