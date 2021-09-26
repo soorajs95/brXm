@@ -160,7 +160,7 @@ public class ContentPage extends BasePage {
     }
 
     public void verifyPublishRequestCreated() {
-        waitUntilElementVisible(documentStatus);
+        elementClick(documentStatus);
         waitInSeconds(1);
         Assert.assertTrue(documentStatus.getText().contains("Publication request"));
     }

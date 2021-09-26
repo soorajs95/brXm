@@ -1,23 +1,18 @@
 package objects;
 
+import config.Utils;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import steps.Hooks;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.List;
-import java.util.Properties;
 
-public class BasePage {
+public class BasePage extends Utils {
 
     By progressBarLocator = By.xpath("//mat-progress-bar");
 
-    WebDriver driver = Hooks.getBrowser();
+    WebDriver driver = getDriver();
 
     public void navigateTo(String url) {
         driver.navigate().to(url);
@@ -78,15 +73,5 @@ public class BasePage {
 
     public void waitForLoading() {
         webDriverWait().until(ExpectedConditions.invisibilityOfElementLocated(progressBarLocator));
-    }
-
-    public static String readConfig(String config) {
-        Properties prop = new Properties();
-        try {
-            prop.load(new FileInputStream("src/test/resources/Config.properties"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return prop.getProperty(config).trim();
     }
 }
