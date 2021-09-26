@@ -34,7 +34,7 @@ jobs:
           make run-ui-tests
 
       - name: Generate UI test report
-      run: make generate-ui-test-report
+        run: make generate-ui-test-report
 
-    - name: API tests
-      run: make run-api-tests
+      - name: API tests
+        run: make run-api-tests
