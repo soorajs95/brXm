@@ -22,7 +22,7 @@ public class Utils {
     public static String readConfig(String config) {
         Properties prop = new Properties();
         try {
-            prop.load(new FileInputStream("./src/test/resources/Config.properties"));
+            prop.load(new FileInputStream("src/test/resources/Config.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }

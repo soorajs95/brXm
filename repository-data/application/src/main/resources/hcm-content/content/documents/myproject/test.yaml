@@ -634,3 +634,58 @@
         path: test-2021-09-26t22-00-39.929/test-2021-09-26t22-00-39.929[2]
       hippostdpubwf:type: publish
       hippostdpubwf:username: author
+  /test-2021-09-26t23-43-11.777:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: [ 'hippo:named', 'mix:referenceable' ]
+    jcr:uuid: 2ff17bd7-35ea-4e36-94ae-70cbec6da0a2
+    hippo:name: test-2021-09-26T23:43:11.777
+    /test-2021-09-26t23-43-11.777[1]:
+      jcr:primaryType: myproject:blogpost
+      jcr:mixinTypes: [ 'mix:referenceable' ]
+      jcr:uuid: f87e3f0f-c537-4292-a37c-618de6b4ef19
+      hippo:availability: [ ]
+      hippo:related___pathreference: blogpost/hipposysedit:prototypes
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: author
+      hippostdpubwf:creationDate: 2021-09-26T23:43:12.802+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-26T23:43:12.802+02:00
+      hippostdpubwf:lastModifiedBy: author
+      hippotranslation:id: 06a99aed-38c7-44fd-90e5-b147cd94cbec
+      hippotranslation:locale: en
+      myproject:authornames: [ '' ]
+      myproject:categories: [ cms ]
+      myproject:introduction: test-intro
+      myproject:publicationdate: 2021-09-25T00:00:00+02:00
+      myproject:title: test-title
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>test-content</p>
+      /myproject:authors:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+    /test-2021-09-26t23-43-11.777[2]:
+      jcr:primaryType: myproject:blogpost
+      jcr:mixinTypes: [ 'mix:referenceable', 'mix:versionable' ]
+      jcr:uuid: 6b6a95c5-f158-4b40-aade-5e532fbb672f
+      hippo:availability: [ preview ]
+      hippo:related___pathreference: blogpost/hipposysedit:prototypes
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: author
+      hippostdpubwf:creationDate: 2021-09-26T23:43:12.802+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-26T23:43:20.466+02:00
+      hippostdpubwf:lastModifiedBy: author
+      hippotranslation:id: 06a99aed-38c7-44fd-90e5-b147cd94cbec
+      hippotranslation:locale: en
+      myproject:authornames: [ Hippo Author ]
+      myproject:categories: [ cms ]
+      myproject:introduction: test-intro
+      myproject:publicationdate: 2021-09-25T00:00:00+02:00
+      myproject:title: test-title
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>test-content</p>
+      /myproject:authors:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
