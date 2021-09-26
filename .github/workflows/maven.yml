@@ -23,20 +23,20 @@ jobs:
         distribution: 'adopt'
         cache: maven
 
-    - name: Build project
+    - name: Build
       run: make build-project
-      
+
     - name: Run project
       run: make run-project
-      
-    - name: Run UI tests
-      uses: ./
-      with:
-        wait-on: 'http://localhost:8080'
-      run: make run-ui-tests
 
-    - name: Generate UI tests report
+    - name: UI tests
+      run: |
+        npi i -g wait-on
+        make run-project & wait-on http://localhost:8080/
+        make run-ui-tests
+
+    - name: Generate UI test report
       run: make generate-ui-test-report
-      
-    - name: Run API tests
+
+    - name: API tests
       run: make run-api-tests
