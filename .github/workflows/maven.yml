@@ -26,9 +26,6 @@ jobs:
     - name: Build
       run: make build-project
 
-    - name: Run project
-      run: make run-project
-
     - name: UI tests
       run: |
         npi i -g wait-on
