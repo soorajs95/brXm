@@ -30,9 +30,9 @@ jobs:
       run: make run-project
       
     - name: Run UI tests
-      run: make run-ui-tests
       with:
         wait-on: 'http://localhost:8080'
+      run: make run-ui-tests
 
     - name: Generate UI tests report
       run: make generate-ui-test-report
