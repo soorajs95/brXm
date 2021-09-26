@@ -37,9 +37,12 @@ public class Driver extends Utils {
 
     public static ChromeOptions chromeOptions() {
         WebDriverManager.chromedriver().setup();
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.setHeadless(Boolean.parseBoolean(setValue("headless")));
-        return chromeOptions;
+        ChromeOptions options = new ChromeOptions();
+//        chromeOptions.setHeadless(Boolean.parseBoolean(setValue("headless")));
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless");
+        return options;
     }
 
     public static EdgeOptions edgeOptions() {
