@@ -27,7 +27,7 @@ jobs:
 
       - name: UI tests
         run: |
-          make run-project & sleep 85
+          make run-project & sleep 90
           make run-ui-tests
 
       - name: Generate UI test report
