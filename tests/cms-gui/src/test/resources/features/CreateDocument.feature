@@ -3,7 +3,7 @@ Feature: Create Document
 
   As an user I should be able to create document
 
-  Scenario Outline: Users with author access should be to create a document
+  Scenario Outline: Users with <user> access should be to create a document
     Given user is logged in as <user>
     Then user navigates to Content page from the side pane
     And user selects My Project from the directory
