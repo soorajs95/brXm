@@ -35,3 +35,10 @@ jobs:
 
       - name: API tests
         run: make run-api-tests
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: test-reports
+          path: |
+            tests/cms-gui/target/generated-report
+            tests/booking-api/target/HtmlReport/ExtentHtml.html
