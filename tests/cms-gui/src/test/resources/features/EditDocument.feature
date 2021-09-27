@@ -1,8 +1,10 @@
 @EditDocument
 Feature: Edit Document
 
-  Scenario: Users with author access should be to edit a document
-    Given user is logged in as author
+  As an user I should be able to edit document
+
+  Scenario Outline: Users with author access should be to edit a document
+    Given user is logged in as <user>
     Then user navigates to Content page from the side pane
     And user selects My Project from the directory
     Then user selects a document from the list
@@ -11,3 +13,8 @@ Feature: Edit Document
       | introduction | test-intro-edited   |
       | content      | test-content-edited |
     Then document should be edited successfully
+    Examples:
+      | user   |
+      | author |
+      | editor |
+      | admin  |

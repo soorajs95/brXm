@@ -89,24 +89,24 @@
       /myproject:authors:
         jcr:primaryType: hippo:mirror
         hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-  /test-2021-09-26t12-35-59.481:
+  /test-2021-09-27t23-51-47.838:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: [ 'hippo:named', 'mix:referenceable' ]
-    jcr:uuid: 2715e064-2d9c-436a-9f74-f51639540dcc
-    hippo:name: test-2021-09-26T12:35:59.481
-    /test-2021-09-26t12-35-59.481[1]:
+    jcr:uuid: 9b932071-0796-484d-b849-4e8e561fb15c
+    hippo:name: test-2021-09-27T23:51:47.838
+    /test-2021-09-27t23-51-47.838[1]:
       jcr:primaryType: myproject:blogpost
       jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: 6ee20eeb-0489-4fc9-8adb-573096e46256
+      jcr:uuid: 1eb5213a-a833-479e-a9cb-92880c1a1ce1
       hippo:availability: [ ]
       hippo:related___pathreference: blogpost/hipposysedit:prototypes
       hippostd:retainable: false
       hippostd:state: draft
       hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T12:35:59.973+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T12:35:59.973+02:00
+      hippostdpubwf:creationDate: 2021-09-27T23:51:48.432+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-27T23:51:48.433+02:00
       hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 52e5bc93-0363-4506-9893-4018c42e24a6
+      hippotranslation:id: 04534418-c1c1-415d-b8d1-51ea67862910
       hippotranslation:locale: en
       myproject:authornames: [ '' ]
       myproject:categories: [ cms ]
@@ -119,19 +119,19 @@
       /myproject:authors:
         jcr:primaryType: hippo:mirror
         hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /test-2021-09-26t12-35-59.481[2]:
+    /test-2021-09-27t23-51-47.838[2]:
       jcr:primaryType: myproject:blogpost
       jcr:mixinTypes: [ 'mix:referenceable', 'mix:versionable' ]
-      jcr:uuid: e819376e-7bc3-48f3-b1e3-ecde93802571
+      jcr:uuid: f3a9501e-c19a-4185-a0db-36f0dc4baab0
       hippo:availability: [ preview ]
       hippo:related___pathreference: blogpost/hipposysedit:prototypes
       hippostd:retainable: false
       hippostd:state: unpublished
       hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T12:35:59.973+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T12:36:03.414+02:00
+      hippostdpubwf:creationDate: 2021-09-27T23:51:48.432+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-27T23:51:51.446+02:00
       hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 52e5bc93-0363-4506-9893-4018c42e24a6
+      hippotranslation:id: 04534418-c1c1-415d-b8d1-51ea67862910
       hippotranslation:locale: en
       myproject:authornames: [ Hippo Author ]
       myproject:categories: [ cms ]
@@ -144,24 +144,24 @@
       /myproject:authors:
         jcr:primaryType: hippo:mirror
         hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-  /test-2021-09-26t12-36-18.257:
+  /test-2021-09-27t23-51-57.491:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: [ 'hippo:named', 'mix:referenceable' ]
-    jcr:uuid: c9d86df0-56b7-4877-aa8d-841c2ccb8258
-    hippo:name: test-2021-09-26T12:36:18.257
-    /test-2021-09-26t12-36-18.257[1]:
+    jcr:uuid: 1365f899-c94f-4336-be80-1523b9c0487a
+    hippo:name: test-2021-09-27T23:51:57.491
+    /test-2021-09-27t23-51-57.491[1]:
       jcr:primaryType: myproject:blogpost
       jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: 612ceb62-551f-4d8a-a62c-93a4a6d1f42e
+      jcr:uuid: 88064d3b-841f-4205-b7d3-1d17bdaac3ec
       hippo:availability: [ ]
       hippo:related___pathreference: blogpost/hipposysedit:prototypes
       hippostd:retainable: false
       hippostd:state: draft
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T12:36:18.711+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T12:36:18.711+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: c456dba9-f476-49a3-9c8e-2274c8635797
+      hippostdpubwf:createdBy: editor
+      hippostdpubwf:creationDate: 2021-09-27T23:51:58.005+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-27T23:51:58.005+02:00
+      hippostdpubwf:lastModifiedBy: editor
+      hippotranslation:id: 8efa0ecf-59ba-467c-a848-14ba6df9e3d9
       hippotranslation:locale: en
       myproject:authornames: [ '' ]
       myproject:categories: [ cms ]
@@ -174,19 +174,19 @@
       /myproject:authors:
         jcr:primaryType: hippo:mirror
         hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /test-2021-09-26t12-36-18.257[2]:
+    /test-2021-09-27t23-51-57.491[2]:
       jcr:primaryType: myproject:blogpost
       jcr:mixinTypes: [ 'mix:referenceable', 'mix:versionable' ]
-      jcr:uuid: 20edc18c-bbd2-4252-9a43-a1945e98e208
+      jcr:uuid: 7c108ca1-2c80-47b8-bb94-e7554e3c28e3
       hippo:availability: [ preview ]
       hippo:related___pathreference: blogpost/hipposysedit:prototypes
       hippostd:retainable: false
       hippostd:state: unpublished
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T12:36:18.711+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T12:36:22.129+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: c456dba9-f476-49a3-9c8e-2274c8635797
+      hippostdpubwf:createdBy: editor
+      hippostdpubwf:creationDate: 2021-09-27T23:51:58.005+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-27T23:52:01.612+02:00
+      hippostdpubwf:lastModifiedBy: editor
+      hippotranslation:id: 8efa0ecf-59ba-467c-a848-14ba6df9e3d9
       hippotranslation:locale: en
       myproject:authornames: [ Hippo Author ]
       myproject:categories: [ cms ]
@@ -199,24 +199,24 @@
       /myproject:authors:
         jcr:primaryType: hippo:mirror
         hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-  /test-2021-09-26t12-36-41.293:
+  /test-2021-09-27t23-52-08.275:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: [ 'hippo:named', 'mix:referenceable' ]
-    jcr:uuid: 09d24f3c-4b34-4463-8056-1d674d4e47af
-    hippo:name: test-2021-09-26T12:36:41.293
-    /test-2021-09-26t12-36-41.293[1]:
+    jcr:uuid: 8060ff7d-1838-43a3-8d4b-2ced413bd67a
+    hippo:name: test-2021-09-27T23:52:08.275
+    /test-2021-09-27t23-52-08.275[1]:
       jcr:primaryType: myproject:blogpost
       jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: e3c98aa1-5944-4626-aed5-db1872a07922
+      jcr:uuid: d9e3ac6a-6082-44a4-b4d3-6efd43e6ea15
       hippo:availability: [ ]
       hippo:related___pathreference: blogpost/hipposysedit:prototypes
       hippostd:retainable: false
       hippostd:state: draft
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T12:36:41.761+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T12:36:50.298+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: b0132caa-e770-48c7-9b3b-17dfc41a14cc
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-27T23:52:08.776+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-27T23:53:45.560+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 67dabf06-7753-411d-8749-eb1f847c63fc
       hippotranslation:locale: en
       myproject:authornames: [ Hippo Author ]
       myproject:categories: [ cms ]
@@ -229,19 +229,19 @@
       /myproject:authors:
         jcr:primaryType: hippo:mirror
         hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /test-2021-09-26t12-36-41.293[2]:
+    /test-2021-09-27t23-52-08.275[2]:
       jcr:primaryType: myproject:blogpost
       jcr:mixinTypes: [ 'mix:referenceable', 'mix:versionable' ]
-      jcr:uuid: f8a59392-33e9-4edd-a543-ee6749f1974b
+      jcr:uuid: 8606f5eb-4b41-4a4c-8118-655ff19d94e0
       hippo:availability: [ preview ]
       hippo:related___pathreference: blogpost/hipposysedit:prototypes
       hippostd:retainable: false
       hippostd:state: unpublished
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T12:36:41.761+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T12:36:51.376+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: b0132caa-e770-48c7-9b3b-17dfc41a14cc
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-27T23:52:08.776+02:00
+      hippostdpubwf:lastModificationDate: 2021-09-27T23:53:46.952+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 67dabf06-7753-411d-8749-eb1f847c63fc
       hippotranslation:locale: en
       myproject:authornames: [ Hippo Author ]
       myproject:categories: [ cms ]
@@ -251,441 +251,6 @@
       /myproject:content:
         jcr:primaryType: hippostd:html
         hippostd:content: <p>test-content-edited</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /hippo:request:
-      jcr:primaryType: hippostdpubwf:request
-      jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: 16102c65-11ea-442b-b195-4d477f89ab12
-      hippostdpubwf:creationDate: 2021-09-26T12:36:57.563+02:00
-      hippostdpubwf:document:
-        type: reference
-        path: test-2021-09-26t12-36-41.293/test-2021-09-26t12-36-41.293[2]
-      hippostdpubwf:type: publish
-      hippostdpubwf:username: author
-  /test-2021-09-26t13-11-08.315:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: [ 'hippo:named', 'mix:referenceable' ]
-    jcr:uuid: 70c93fe8-6ad1-4872-90b3-95492660c5d9
-    hippo:name: test-2021-09-26T13:11:08.315
-    /test-2021-09-26t13-11-08.315[1]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: 0e1496b6-eefb-4b9c-8119-3dbba525820e
-      hippo:availability: [ ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: draft
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T13:11:09.299+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T13:11:18.373+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 06600cd4-0790-4e97-a8af-16f8ce002c62
-      hippotranslation:locale: en
-      myproject:authornames: [ Hippo Author ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro-edited
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title-edited
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content-edited</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /test-2021-09-26t13-11-08.315[2]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable', 'mix:versionable' ]
-      jcr:uuid: dc422387-1407-46e9-8913-877735f3e51f
-      hippo:availability: [ preview ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: unpublished
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T13:11:09.299+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T13:11:19.530+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 06600cd4-0790-4e97-a8af-16f8ce002c62
-      hippotranslation:locale: en
-      myproject:authornames: [ Hippo Author ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro-edited
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title-edited
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content-edited</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /hippo:request:
-      jcr:primaryType: hippostdpubwf:request
-      jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: 0f0a3146-f646-4258-8014-3e8190e8386f
-      hippostdpubwf:creationDate: 2021-09-26T13:11:25.228+02:00
-      hippostdpubwf:document:
-        type: reference
-        path: test-2021-09-26t13-11-08.315/test-2021-09-26t13-11-08.315[2]
-      hippostdpubwf:type: publish
-      hippostdpubwf:username: author
-  /test-2021-09-26t13-14-48.219:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: [ 'hippo:named', 'mix:referenceable' ]
-    jcr:uuid: b1d393a7-083e-4348-86cf-b358ec49e336
-    hippo:name: test-2021-09-26T13:14:48.219
-    /test-2021-09-26t13-14-48.219[1]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: 8dff2520-d1f5-4fdb-99e7-04bea2df6019
-      hippo:availability: [ ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: draft
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T13:14:49.224+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T13:14:58.861+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 1ca14785-6744-4c32-a42c-70ed22ce20c2
-      hippotranslation:locale: en
-      myproject:authornames: [ Hippo Author ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro-edited
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title-edited
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content-edited</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /test-2021-09-26t13-14-48.219[2]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable', 'mix:versionable' ]
-      jcr:uuid: 37d292f6-a2ff-4b3e-81b6-5361e6628842
-      hippo:availability: [ preview ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: unpublished
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T13:14:49.224+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T13:15:00.072+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 1ca14785-6744-4c32-a42c-70ed22ce20c2
-      hippotranslation:locale: en
-      myproject:authornames: [ Hippo Author ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro-edited
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title-edited
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content-edited</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /hippo:request:
-      jcr:primaryType: hippostdpubwf:request
-      jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: 53d89128-79d1-4d31-9871-a5c62d8905a6
-      hippostdpubwf:creationDate: 2021-09-26T13:15:06.052+02:00
-      hippostdpubwf:document:
-        type: reference
-        path: test-2021-09-26t13-14-48.219/test-2021-09-26t13-14-48.219[2]
-      hippostdpubwf:type: publish
-      hippostdpubwf:username: author
-  /test-2021-09-26t13-23-56.372:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: [ 'hippo:named', 'mix:referenceable' ]
-    jcr:uuid: f224d19f-083d-4894-829d-4a8e3b4c73c4
-    hippo:name: test-2021-09-26T13:23:56.372
-    /test-2021-09-26t13-23-56.372[1]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: 072ed971-9a8f-4346-8ccf-3b8c301ddf62
-      hippo:availability: [ ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: draft
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T13:23:56.872+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T13:23:56.873+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 0686da36-5bda-466a-be19-7e216640d58f
-      hippotranslation:locale: en
-      myproject:authornames: [ '' ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /test-2021-09-26t13-23-56.372[2]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable', 'mix:versionable' ]
-      jcr:uuid: 793304d5-12f5-47aa-88f0-46cc1953f990
-      hippo:availability: [ preview ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: unpublished
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T13:23:56.872+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T13:24:00.624+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 0686da36-5bda-466a-be19-7e216640d58f
-      hippotranslation:locale: en
-      myproject:authornames: [ Hippo Author ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-  /test-2021-09-26t14-08-59.654:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: [ 'hippo:named', 'mix:referenceable' ]
-    jcr:uuid: 30c79f94-eae8-4963-b4de-1a6da7bb889c
-    hippo:name: test-2021-09-26T14:08:59.654
-    /test-2021-09-26t14-08-59.654[1]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: 0c9c19be-0833-4863-8b56-34b1ebbf0c73
-      hippo:availability: [ ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: draft
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T14:09:00.163+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T14:09:00.164+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 68c113ee-65ca-4a5a-84e2-e6372b5f276b
-      hippotranslation:locale: en
-      myproject:authornames: [ '' ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /test-2021-09-26t14-08-59.654[2]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable', 'mix:versionable' ]
-      jcr:uuid: 28b1bd38-b621-4f28-9cc4-2a70ac0a7f72
-      hippo:availability: [ preview ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: unpublished
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T14:09:00.163+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T14:09:03.026+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 68c113ee-65ca-4a5a-84e2-e6372b5f276b
-      hippotranslation:locale: en
-      myproject:authornames: [ Hippo Author ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-  /test-2021-09-26t15-21-08.282:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: [ 'hippo:named', 'mix:referenceable' ]
-    jcr:uuid: 317b0690-3e25-4565-a41b-b0288463a35c
-    hippo:name: test-2021-09-26T15:21:08.282
-    /test-2021-09-26t15-21-08.282[1]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: 165a7079-9a81-44a6-8da9-5cb3681907e4
-      hippo:availability: [ ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: draft
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T15:21:08.737+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T15:21:17.395+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 98428418-a9e3-4d45-ae20-bccf169ad77b
-      hippotranslation:locale: en
-      myproject:authornames: [ Hippo Author ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro-edited
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title-edited
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content-edited</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /test-2021-09-26t15-21-08.282[2]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable', 'mix:versionable' ]
-      jcr:uuid: 19b69d24-c9cb-4ecb-8e89-134e34c230b2
-      hippo:availability: [ preview ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: unpublished
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T15:21:08.737+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T15:21:18.625+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 98428418-a9e3-4d45-ae20-bccf169ad77b
-      hippotranslation:locale: en
-      myproject:authornames: [ Hippo Author ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro-edited
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title-edited
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content-edited</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /hippo:request:
-      jcr:primaryType: hippostdpubwf:request
-      jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: 8444086b-3775-435b-93c5-45e9d5aab7a4
-      hippostdpubwf:creationDate: 2021-09-26T15:21:24.379+02:00
-      hippostdpubwf:document:
-        type: reference
-        path: test-2021-09-26t15-21-08.282/test-2021-09-26t15-21-08.282[2]
-      hippostdpubwf:type: publish
-      hippostdpubwf:username: author
-  /test-2021-09-26t22-00-39.929:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: [ 'hippo:named', 'mix:referenceable' ]
-    jcr:uuid: 01eb8fc9-344e-439d-8f19-f55f1d55dcdf
-    hippo:name: test-2021-09-26T22:00:39.929
-    /test-2021-09-26t22-00-39.929[1]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: dd17f7b0-6807-4d79-9470-634517b3cd4a
-      hippo:availability: [ ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: draft
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T22:00:40.377+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T22:00:50.070+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 05a6f580-0627-449f-ae13-6f037f59de9c
-      hippotranslation:locale: en
-      myproject:authornames: [ Hippo Author ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro-edited
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title-edited
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content-edited</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /test-2021-09-26t22-00-39.929[2]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable', 'mix:versionable' ]
-      jcr:uuid: 220b8049-b0cd-408d-b0fd-fbcde01ab599
-      hippo:availability: [ preview ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: unpublished
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T22:00:40.377+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T22:00:51.266+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 05a6f580-0627-449f-ae13-6f037f59de9c
-      hippotranslation:locale: en
-      myproject:authornames: [ Hippo Author ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro-edited
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title-edited
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content-edited</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /hippo:request:
-      jcr:primaryType: hippostdpubwf:request
-      jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: 98e25257-6e0b-4f51-b8de-2e05d7c99098
-      hippostdpubwf:creationDate: 2021-09-26T22:00:57.074+02:00
-      hippostdpubwf:document:
-        type: reference
-        path: test-2021-09-26t22-00-39.929/test-2021-09-26t22-00-39.929[2]
-      hippostdpubwf:type: publish
-      hippostdpubwf:username: author
-  /test-2021-09-26t23-43-11.777:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: [ 'hippo:named', 'mix:referenceable' ]
-    jcr:uuid: 2ff17bd7-35ea-4e36-94ae-70cbec6da0a2
-    hippo:name: test-2021-09-26T23:43:11.777
-    /test-2021-09-26t23-43-11.777[1]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable' ]
-      jcr:uuid: f87e3f0f-c537-4292-a37c-618de6b4ef19
-      hippo:availability: [ ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: draft
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T23:43:12.802+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T23:43:12.802+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 06a99aed-38c7-44fd-90e5-b147cd94cbec
-      hippotranslation:locale: en
-      myproject:authornames: [ '' ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content</p>
-      /myproject:authors:
-        jcr:primaryType: hippo:mirror
-        hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
-    /test-2021-09-26t23-43-11.777[2]:
-      jcr:primaryType: myproject:blogpost
-      jcr:mixinTypes: [ 'mix:referenceable', 'mix:versionable' ]
-      jcr:uuid: 6b6a95c5-f158-4b40-aade-5e532fbb672f
-      hippo:availability: [ preview ]
-      hippo:related___pathreference: blogpost/hipposysedit:prototypes
-      hippostd:retainable: false
-      hippostd:state: unpublished
-      hippostdpubwf:createdBy: author
-      hippostdpubwf:creationDate: 2021-09-26T23:43:12.802+02:00
-      hippostdpubwf:lastModificationDate: 2021-09-26T23:43:20.466+02:00
-      hippostdpubwf:lastModifiedBy: author
-      hippotranslation:id: 06a99aed-38c7-44fd-90e5-b147cd94cbec
-      hippotranslation:locale: en
-      myproject:authornames: [ Hippo Author ]
-      myproject:categories: [ cms ]
-      myproject:introduction: test-intro
-      myproject:publicationdate: 2021-09-25T00:00:00+02:00
-      myproject:title: test-title
-      /myproject:content:
-        jcr:primaryType: hippostd:html
-        hippostd:content: <p>test-content</p>
       /myproject:authors:
         jcr:primaryType: hippo:mirror
         hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189

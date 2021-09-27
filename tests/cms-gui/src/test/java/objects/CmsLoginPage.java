@@ -19,10 +19,10 @@ public class CmsLoginPage extends BasePage {
     @FindBy(id = "id9")
     WebElement loginButton;
 
-    public void loginToCms(String accessType) {
+    public void loginToCms(String userType) {
         waitUntilElementVisible(loginButton);
-        userName.sendKeys("author");
-        password.sendKeys("author");
+        userName.sendKeys(userType);
+        password.sendKeys(userType);
         loginButton.click();
     }
 }
