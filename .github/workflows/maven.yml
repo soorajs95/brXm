@@ -31,12 +31,25 @@ jobs:
           make run-ui-tests
 
       - name: Generate UI test report
+        if: ${{ always() }}
         run: make generate-ui-test-report
 
       - name: API tests
+        if: ${{ always() }}
         run: make run-api-tests
 
+      - name: Test Reporter
+        uses: dorny/test-reporter@v1
+        if: success() || failure()
+        with:
+          name: test-reports
+          path: |
+            tests/cms-gui/target/surefire-reports/TEST-*.xml
+            tests/booking-api/target/surefire-reports/TEST-*.xml
+          reporter: java-junit
+
       - uses: actions/upload-artifact@v2
+        if: ${{ always() }}
         with:
           name: test-reports
           path: |
