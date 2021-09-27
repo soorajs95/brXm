@@ -43,9 +43,7 @@ jobs:
         if: success() || failure()
         with:
           name: test-reports
-          path: |
-            tests/cms-gui/target/surefire-reports/TEST-*.xml
-            tests/booking-api/target/surefire-reports/TEST-*.xml
+          path: "**/surefire-reports/TEST-*.xml"
           reporter: java-junit
 
       - uses: actions/upload-artifact@v2
