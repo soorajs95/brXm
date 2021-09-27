@@ -10,7 +10,7 @@ public class Common {
 
     @Given("user is logged in as {}")
     public void userIsLoggedInAs(String accessType) {
-        cmsLoginPage.navigateTo(BasePage.readConfig("cms_url"));
+        cmsLoginPage.navigateTo(BasePage.setValue("cms_url"));
         cmsLoginPage.loginToCms(accessType);
     }
 
