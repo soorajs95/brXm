@@ -19,7 +19,7 @@ public class BasePage extends Utils {
     }
 
     public WebDriverWait webDriverWait() {
-        return new WebDriverWait(driver, (Long.parseLong(readConfig("webdriver_wait_timeout"))));
+        return new WebDriverWait(driver, (Long.parseLong(setValue("webdriver_wait_timeout"))));
     }
 
     public void waitUntilElementVisible(WebElement element) {
