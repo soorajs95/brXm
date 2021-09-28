@@ -1,4 +1,4 @@
-@EditDocument
+@EditDocument @Regression
 Feature: Edit Document
 
   As an user I should be able to edit document

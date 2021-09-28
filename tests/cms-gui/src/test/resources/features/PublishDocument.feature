@@ -1,4 +1,4 @@
-@PublishDocument
+@PublishDocument @Regression
 Feature: Publish Document
 
   As an user I should be able to publish document

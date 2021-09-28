@@ -1,4 +1,4 @@
-@CreateDocument
+@CreateDocument @Regression
 Feature: Create Document
 
   As an user I should be able to create document
