@@ -47,7 +47,7 @@ make run-api-tests
 
 - Generate the report using maven command - `make generate-ui-test-report`
 - Reports will be generated in `tests/cms-gui/target/generated-reports/index.html` after running the tests using maven
-  commands
+  command
 
 ### API test reports
 
