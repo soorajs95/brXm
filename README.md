@@ -53,4 +53,4 @@ make run-api-tests
 
 - Reports will be generated in `tests/booking-api/target/HtmlReport/ExtentHtml.html` after test execution
 
-Test report will be also uploaded to Github Action artifacts
+Test report will be also uploaded to Github Action artifact
